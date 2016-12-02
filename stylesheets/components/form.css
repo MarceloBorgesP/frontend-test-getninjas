@@ -1,0 +1,32 @@
+/* FORM */
+
+.form-block {
+  margin-bottom: 20px;
+}
+
+.form-block > label {
+  display: inline-block;
+  color: #454545;
+  font-weight: 800;
+}
+
+.form-block > ul > li {
+  border: 1px solid #454545;
+  padding: 9px;
+  border: 1px solid #d2d2d2;
+  background-image: -webkit-linear-gradient(#fff, #f9f9f9);
+  background-image: -o-linear-gradient(#fff, #f9f9f9);
+  background-image: linear-gradient(#fff, #f9f9f9);
+}
+
+.form-block > ul > li:hover {
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3);
+  background-image: -o-linear-gradient(#f9f9f9, #f3f3f3);
+  background-image: linear-gradient(#f9f9f9, #f3f3f3);
+}
+
+
+fieldset {
+  border: none;
+}

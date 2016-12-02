@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylesheets/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-brand">
+          <img src="https://images.getninjas.com.br/icons/59/original/estetica.svg?1480428280" alt="Estética" class="img-brand">
+          <h1 class="text-brand">
+            GetNinjas
+            <small>Estética</small>
+          </h1>
+        </div>
+      </div>
+    </header>
+    <section class='container'>
+      <div id="page-title">
+        <h1>Encontre os Melhores Cabeleireiros da sua região</h1>
+        <small>Você nos conta o que precisa, nós selecionamos os melhores cabeleireiros e eles entrarão em contato com você.</small>
+      </div>
+      <form>
+        <div class="panel">
+          <div class="panel-header">
+            <h1>
+              Explique o que você precisa
+              <small>Peça seu orçamento grátis, online!</small>
+            </h1>
+          </div>
+          <div class="panel-body">
+            <fieldset id="step1">
+              <ul id='form'></ul>
+              <button type="button" class="btn-action" id="next">Continuar</button>
+            </fieldset>
+            <fieldset id="step2" class="hidden">
+              <div class="panel-body-message">
+                <b>Falta pouco!</b> 
+                <small>Preencha mais algumas informações para que os profissionais indicados possam entrar em contato.</small>
+                <small>Na próxima tela, você verá o contato e localização dos profissionais.</small>
+              </div>
+              <ul id='form-user'></ul>
+              <button type="button" class="btn-action" id="submit">Salvar</button>
+            </fieldset>
+          </div>
+        </div>
+      </form>
+    </section>
+  <script src="fields.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+/* HELPERS */
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  margin: 4px 0 6px;
+}
+
+.hidden {
+  display: none !important;
+}

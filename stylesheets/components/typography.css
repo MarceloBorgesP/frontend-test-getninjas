@@ -1,0 +1,10 @@
+/* TYPOGRAPHY */
+
+small {
+  display: block;
+}
+
+textarea, input:not([type=checkbox]), select, .error {
+  display: block;
+  width: 100%;
+}
