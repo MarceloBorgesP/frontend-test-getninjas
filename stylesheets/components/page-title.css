@@ -1,0 +1,18 @@
+/* PAGE TITLE */
+
+#page-title {
+  text-align: center;
+  color: #fff;
+  margin: 200px 0 50px 0;
+}
+
+#page-title h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#page-title small {
+  font-size: 16px;
+  padding-top: 12px;
+  font-style: italic;
+}

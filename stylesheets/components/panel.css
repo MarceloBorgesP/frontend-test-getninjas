@@ -1,0 +1,29 @@
+/* PANEL */
+
+.panel {
+  background-color: #fff;
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;
+  width: 555px;
+  margin: 0 auto;
+}
+
+.panel .panel-header {
+  text-align: center;
+  color: #1393f6;
+}
+
+.panel h1 {
+  padding: 15px 0%;
+  border-bottom: 2px solid rgba(19,147,246,0.2);
+}
+
+.panel-header h1 small {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.panel .panel-header, .panel .panel-body {
+  margin: 14px 0;
+  padding: 0 12%;
+}

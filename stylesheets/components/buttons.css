@@ -1,0 +1,15 @@
+/* BUTTONS */
+
+.btn-action {
+  border: 0;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+  background-color: #009d61;
+  color: white;
+  border-radius: 100px;
+  font-size: 1.33333em;
+  padding: 13px 0 16px;
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+/* HEADER */
+
+header {
+  background-color: #fff;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.img-brand {
+  width: 33px;
+  height: 33px;
+}
+
+.text-brand {
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: .8;
+}
+
+.img-brand, .text-brand {
+  display: inline-block;
+}
+
+.text-brand small {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  color: #1393f6;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
